@@ -38,8 +38,20 @@ body{
 }
 .popup-content{
   background-color: #282c34;
-  max-width: 400px;
+  width: 300px;
   height: fit-content;
+  padding: 1em;
+  box-shadow: 0 0 2px #ffffff;
+  color: #f5deb3;
+}
+
+[role=tooltip].popup-content{
+  background-color: #282c34;
+  width: 300px;
+  height: fit-content;
+  padding: 1em;
+  box-shadow: 0 0 2px #ffffff;
+  color: #f5deb3;
 }
 
 @keyframes App-logo-spin {
